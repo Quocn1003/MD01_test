@@ -51,9 +51,9 @@ th,td{
     cursor: pointer;
     border: none;
 }
-.bth_edit{
+.btn_edit{
     background-color: orange;
 }
-.bth_delete{
+.btn_delete{
     background-color: red;
 }

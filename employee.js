@@ -102,6 +102,7 @@ function editEmployee(code){
         document.getElementById("employee_name").value = employee.name;
         document.getElementById("email").value = employee.email;
         document.getElementById("add_update_btn").innerText = "Update Employee";
+        document.getElementById("title").innerText = "Update Employee";
     }
 }
 
@@ -124,5 +125,6 @@ function resetForm(){
     document.getElementById("employee_name").value = "";
     document.getElementById("email").value = "";
     document.getElementById("add_update_btn").innerText = "Add Employee";
+    document.getElementById("title").innerText = "Add Employee";
 }
 //localStorage.clear();
