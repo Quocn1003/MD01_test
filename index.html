@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form_container">
+            <form action="">
+                <h2>Add Employee</h2>
+                <label for="employee_code">Employee code</label>
+                <input type="text" id="employee_code">
+                <label for="employee_name">Employee name</label>
+                <input type="text" id="employee_name">
+                <label for="email">Email</label>
+                <input type="text" id="email">
+                <button id="add_update_btn" onclick="addOrUpdateEmployee()">Add Employee</button>
+            </form>
+        </div>
+        <div class="table_container">
+            <h2>Employee list</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Employee code</th>
+                        <th>Employee name</th>
+                        <th>Email</th>
+                        <th>Option</th>
+                    </tr>
+                </thead>
+                <tbody id="employee_list">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="employee.js"></script>
+</body>
+
+</html>
